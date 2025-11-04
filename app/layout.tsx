@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://guitar.cat/og.png",
-        width: 1200,
-        height: 630,
+        width: 1536,
+        height: 1024,
         alt: "GUITAR.CAT logo with cat face and flames",
       },
     ],
@@ -39,15 +39,15 @@ export const metadata: Metadata = {
     title: "GUITAR.CAT",
     description:
       "Modern guitar tablature application — sleek, fast, and built for players who shred.",
-    images: ["/og-image.png"],
+    images: ["https://guitar.cat/og.png"],
   },
   icons: {
     icon: [
-      { url: "/favicon.ico" },
+      { url: "https://guitar.cat/favicon.ico" },
     //   { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     //   { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
     ],
-    apple: [{ url: "/apple-touch-icon.png" }],
+    apple: [{ url: "https://guitar.cat/apple-touch-icon.png" }],
   },
 }
 
